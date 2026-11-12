@@ -1,0 +1,33 @@
+# ==========================================
+# SEGURIDAD Y CREDENCIALES (¡Muy importante!)
+# ==========================================
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+aws_credentials*
+
+# ==========================================
+# ENTORNOS VIRTUALES DE PYTHON
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================================
+# ARCHIVOS TEMPORALES Y CACHÉ DE PYTHON
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# ==========================================
+# EDITORES DE CÓDIGO Y SISTEMA OPERATIVO
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
